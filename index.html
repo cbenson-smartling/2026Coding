@@ -1,9 +1,152 @@
-<!doctype html>
-<html>
-  <head>
-    <title>This is the title of the webpage!</title>
-  </head>
-  <body>
-    <p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lumina — Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="index.html" class="nav-logo">Lumi<span>na</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html" class="nav-cta">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <span class="hero-badge">Welcome to Lumina</span>
+      <h1>We build things<br><span>people love</span></h1>
+      <p>Lumina is a creative studio crafting beautiful digital experiences — from sleek websites to polished brand identities.</p>
+      <div class="hero-actions">
+        <a href="services.html" class="btn btn-primary">Explore Services</a>
+        <a href="about.html" class="btn btn-outline">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section style="background: var(--white);">
+    <div class="section-inner">
+      <div class="section-header">
+        <p class="section-label">What We Do</p>
+        <h2 class="section-title">Everything you need<br>to stand out online</h2>
+        <p class="section-sub">From concept to launch, we handle every detail so you can focus on what matters most.</p>
+      </div>
+      <div class="cards-grid">
+        <div class="card">
+          <div class="card-icon">&#127760;</div>
+          <h3>Web Design</h3>
+          <p>Pixel-perfect, responsive websites that look stunning on every device and screen size.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">&#127775;</div>
+          <h3>Brand Identity</h3>
+          <p>Logos, color systems, and visual guidelines that tell your story at a glance.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">&#128640;</div>
+          <h3>Product Strategy</h3>
+          <p>Research-backed roadmaps and UX consulting to ship the right features first.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">&#128202;</div>
+          <h3>Analytics & SEO</h3>
+          <p>Data-driven growth tactics to get you found and keep visitors coming back.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">&#128241;</div>
+          <h3>Mobile Apps</h3>
+          <p>Native-feel cross-platform apps built with speed and user delight in mind.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">&#128276;</div>
+          <h3>Ongoing Support</h3>
+          <p>Priority support plans so your site is always fast, secure, and up to date.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section style="background: var(--light-bg);">
+    <div class="section-inner" style="text-align:center;">
+      <p class="section-label">By the Numbers</p>
+      <h2 class="section-title">Trusted by clients worldwide</h2>
+      <div class="stats-row">
+        <div class="stat">
+          <div class="stat-num">150+</div>
+          <div class="stat-label">Projects Delivered</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">98%</div>
+          <div class="stat-label">Client Satisfaction</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">12</div>
+          <div class="stat-label">Industry Awards</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">5+</div>
+          <div class="stat-label">Years Experience</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-band">
+    <div class="section-inner">
+      <h2>Ready to bring your vision to life?</h2>
+      <p>Tell us about your project and we'll get back to you within 24 hours.</p>
+      <a href="contact.html" class="btn btn-white">Start a Project</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a href="index.html" class="nav-logo">Lumi<span>na</span></a>
+        <p>A creative studio building digital products that inspire. Based everywhere, serving everyone.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html">Web Design</a></li>
+          <li><a href="services.html">Branding</a></li>
+          <li><a href="services.html">Strategy</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Lumina. All rights reserved.</span>
+      <span>Made with &#9825; by the Lumina team</span>
+    </div>
+  </footer>
+
+</body>
 </html>
+
